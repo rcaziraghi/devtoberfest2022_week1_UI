@@ -24,6 +24,8 @@ import "@ui5/webcomponents-icons/dist/horizontal-bar-chart.js";
 import "@ui5/webcomponents-icons/dist/list.js";
 import "@ui5/webcomponents-icons/dist/table-view.js";
 
+import { MyCustomElement } from "./MyCustomElement";
+
 const dataset = [
   {
     month: "January",
@@ -118,6 +120,7 @@ export function Home() {
         wrap={FlexBoxWrap.Wrap}
         style={spacing.sapUiContentPadding}
       >
+        <MyCustomElement />
         <Card
           header={
             <CardHeader
