@@ -5,15 +5,18 @@ import {
   FlexBoxJustifyContent,
   Link,
   LinkDesign,
-  ShellBar
-} from '@ui5/webcomponents-react';
+  ShellBar,
+} from "@ui5/webcomponents-react";
 import { MyApp } from "./MyApp";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <MyApp />
-    </>
+    <HashRouter>
+      <>
+        <MyApp />
+      </>
+    </HashRouter>
   );
 }
 
