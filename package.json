@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@ui5/webcomponents-react-base": "^1.0.1",
     "git": "^0.1.5"
   }
 }
